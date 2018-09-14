@@ -56,23 +56,11 @@ requests than we can review and test. Please be patient and help out, and
 remember this is a security-critical project where any mistake might cost people
 lots of money.
 
-### Automated Testing
+### Installing
 
 Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code.
+submit new unit tests for old code.  see required dep at bottom of README.md 
 
-Unit tests for the core code are in `src/test/`. To compile and run them:
-
-    cd src; make -f makefile.unix test
-
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./byt3coin-qt_test
-    
-    
-    #### Required #####
 sudo apt-get install git
 
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
@@ -97,5 +85,18 @@ sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-d
 
 sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
 
+To compile and run :
+
+    cd Byt3coin/src; make -f makefile.unix 
+    cd Byt3coin/ qmake
+    make 
+
+Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
+
+    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    make -f Makefile.test
+    ./byt3coin-qt_test
+    
+    
 
 
