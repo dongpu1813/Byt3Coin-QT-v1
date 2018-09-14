@@ -1,0 +1,9 @@
+Building Byt3coin
+
+See doc/readme-qt.rst for instructions on building Byt3coin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Byt3coin.
+
+See doc/build-*.txt for instructions on building byt3coind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Byt3coin.

@@ -1,0 +1,34 @@
+src/*.exe
+src/byt3coin
+src/byt3coind
+src/test_byt3coin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.byt3coin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+byt3coin-qt
+Byt3coin-Qt.app
+
+# Unit-tests
+Makefile.test
+byt3coin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
