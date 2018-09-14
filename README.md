@@ -19,7 +19,7 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Byt3coin client sofware, see http://www.byt3coin.org.
+the Byt3coin client sofware,
 
 License
 -------
