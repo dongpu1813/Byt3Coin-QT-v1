@@ -72,7 +72,7 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     ./byt3coin-qt_test
     
     
-    ### Dependency 
+    #### Required #####
 sudo apt-get install git
 
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
