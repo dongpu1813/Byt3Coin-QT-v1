@@ -9,7 +9,7 @@ Copyright (c) 2018- Byt3coin Developers
 What is Byt3coin?
 ----------------
 
-Byt3coin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+
  - 1.1 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~24 million total coins
